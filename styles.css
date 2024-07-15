@@ -26,7 +26,7 @@ body {
     text-align: center;
     overflow: auto;
     position: static;
-    padding-bottom: calc(215vw*100/var(--wid));
+    padding-bottom: calc(415vw*100/var(--wid));
 }
 #name {
     font-size: calc(194vw*var(--wid)/1100/100);
@@ -255,7 +255,7 @@ h6 {
         text-align: left;
     }
 
-    .jobexp table td .jobexp {
+    .jobexp table td {
         margin: 0%;
         padding: 0%;
         padding-bottom: calc(45vw*var(--wid)/1254/100);
@@ -269,7 +269,6 @@ h6 {
 }
 .jobexp {
     position: relative;
-    height: calc(320vw*100 /var(--wid));
 }
     .jobexp h2 {
         margin-bottom: calc(15vw*100 /var(--wid));
@@ -278,25 +277,25 @@ h6 {
     .jobexp h3 {
         color: black;
     }
-#h4 {
-    position: relative;
+td#h4 {
     text-align: right;
+    padding: 0%;
 }
 .job {
-    position: absolute;
     margin-top: calc(-50vw*var(--wid)/1254/100);
 }
-    .jobexp #h4 h4 {
-        font-weight: bold;
-        font-size: calc(70vw*var(--wid)/1254/100);
-        letter-spacing: calc(2vw*var(--wid)/1254/100);
-    }
-    .jobexp h6 {
-        font-size: calc(128vw/1.2/2*var(--wid)/1254/100);
-        line-height: 160%;
-        margin-top: calc(118vw*var(--wid)/1254/100);
-        margin-bottom: 0%;
-    }
+.jobexp h4 {
+    font-weight: bold;
+    font-size: calc(70vw*var(--wid)/1254/100);
+    letter-spacing: calc(2vw*var(--wid)/1254/100);
+}
+.jobexp h6 {
+    font-size: calc(128vw/1.2/2*var(--wid)/1254/100);
+    line-height: 160%;
+    margin-top: calc(118vw*var(--wid)/1254/100);
+    margin-bottom: 0%;
+    margin-bottom: calc(1vw*100*var(--wid)/1254/100);
+}
 #ref {
     background-image: url(icons/people.png);
 }
@@ -312,7 +311,8 @@ h6 {
     font-size: calc(56vw*var(--wid)/1254/100);
 }
 .skills #skill.image_place {
-    border: none;
+    border: 0px;
+    border-radius: 0%;
     width: calc(226vw*100/1.2 /var(--wid));
     height: calc(23vw*100/1.2 /var(--wid));
     background-color: none;
