@@ -211,7 +211,7 @@ h5 {
     overflow: auto;
     position: absolute;
     padding-top: calc(215vw*100/var(--wid));
-    padding-bottom: calc(215vw*100/var(--wid));
+    padding-bottom: calc(215vw*120/var(--wid));
 }
 .aboutme, .jobexerience, .skills {
     position: relative;
